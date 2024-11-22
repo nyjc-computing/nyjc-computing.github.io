@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Our Programme
+layout: page
 ---
 
 ## Our Approach

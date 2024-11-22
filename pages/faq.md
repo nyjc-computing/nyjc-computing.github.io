@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Frequently Asked Questions
+layout: page
 ---
 
 ## Do I need to take H2 Computing to study Computer Science at university?
