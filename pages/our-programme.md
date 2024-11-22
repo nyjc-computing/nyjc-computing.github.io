@@ -1,7 +1,7 @@
 ---
 title: Our Programme
+permalink: "/our-programme"
 layout: page
-permalink: /our-programme
 ---
 
 ## Our Approach

@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions
+permalink: "/faq"
 layout: page
-permalink: /faq
 ---
 
 ## Do I need to take H2 Computing to study Computer Science at university?
