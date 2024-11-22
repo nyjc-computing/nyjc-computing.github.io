@@ -1,7 +1,7 @@
 ---
 title: About
+permalink: "/about"
 layout: page
-permalink: /about
 ---
 
 # Our Staff
