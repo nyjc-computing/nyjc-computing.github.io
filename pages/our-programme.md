@@ -1,4 +1,7 @@
-# Our Programme
+---
+layout: page
+title: Our Programme
+---
 
 ## Our Approach
 At NYJC, we take a hands-on approach to learning. Computing students will learn the syllabus topics through a variety of programming exercises that keep the focus on gaining programming experience. We then use this experience as an anchor for the theoretical principles that improve their programming.

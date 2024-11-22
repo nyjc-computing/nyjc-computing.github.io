@@ -1,4 +1,7 @@
-# NYJC Computing FAQ
+---
+layout: page
+title: Frequently Asked Questions
+---
 
 ## Do I need to take H2 Computing to study Computer Science at university?
 
