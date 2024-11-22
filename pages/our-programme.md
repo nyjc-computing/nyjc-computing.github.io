@@ -1,6 +1,7 @@
 ---
 title: Our Programme
 layout: page
+permalink: /our-programme
 ---
 
 ## Our Approach
