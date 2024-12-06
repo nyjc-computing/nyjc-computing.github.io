@@ -1,0 +1,36 @@
+name: Pre-Deployment Build Test
+
+on:
+  push:
+    branches:
+      - content
+      - dev
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true 
+          cache-version: 0
+
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: development
+
+      - name: Verify Build Output
+        run: |
+          echo "Contents of the _site directory:"
+          ls -l _site
