@@ -5,7 +5,6 @@ on:
     branches:
       - content
       - dev
-
   workflow_dispatch:
 
 permissions:
@@ -13,17 +12,28 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42
+      - name: Setup Ruby (GitHub-hosted only)
+        if: runner.os != 'Linux' || runner.name contains 'GitHub-hosted'
+        uses: ruby/setup-ruby@v4
         with:
           ruby-version: '3.1'
           bundler-cache: true 
           cache-version: 0
+
+      - name: Install Ruby (Self-hosted only)
+        if: runner.os == 'Linux' && !(runner.name contains 'GitHub-hosted')
+        run: |
+          curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-installer | bash
+          export PATH="$HOME/.rbenv/bin:$PATH"
+          eval "$(rbenv init -)"
+          rbenv install 3.1.4
+          rbenv global 3.1.4
+          ruby -v
 
       - name: Build with Jekyll
         run: bundle exec jekyll build
