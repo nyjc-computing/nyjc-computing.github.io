@@ -18,15 +18,15 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Ruby (GitHub-hosted only)
-        if: runner.os != 'Linux' || runner.name contains 'GitHub-hosted'
-        uses: ruby/setup-ruby@v4
+        if: "!env.HOSTED_RUNNER"  
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
-          bundler-cache: true 
+          bundler-cache: true
           cache-version: 0
 
       - name: Install Ruby (Self-hosted only)
-        if: runner.os == 'Linux' && !(runner.name contains 'GitHub-hosted')
+        if: "env.HOSTED_RUNNER"  
         run: |
           curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-installer | bash
           export PATH="$HOME/.rbenv/bin:$PATH"
