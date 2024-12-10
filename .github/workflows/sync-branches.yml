@@ -27,9 +27,13 @@ jobs:
           git pull origin main
           git checkout dev
           git pull origin dev
-          git merge --squash origin/main
-          git commit -m "Squash merge changes from main into dev"
-          git push origin dev
+          git merge --squash origin/main || echo "No changes to merge for dev"
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Squash merge changes from main into dev"
+            git push origin dev
+          else
+            echo "No changes to commit for dev"
+          fi
 
       - name: Sync with Content Branch (Squash Merge)
         run: |
@@ -37,6 +41,10 @@ jobs:
           git pull origin main
           git checkout content
           git pull origin content
-          git merge --squash origin/main
-          git commit -m "Squash merge changes from main into content"
-          git push origin content
+          git merge --squash origin/main || echo "No changes to merge for content"
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Squash merge changes from main into content"
+            git push origin content
+          else
+            echo "No changes to commit for content"
+          fi
