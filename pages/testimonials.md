@@ -6,6 +6,24 @@ layout: page
 
 ## Testimonials
 
+### 2022
+
+> [Through] the group project, I realised that a lot of coordination is needed + how programmers actually do their projects seperately to finish a big big project
+
+> Capstone project was useful in seeing how a practical application is developed and how organisation of code and planning is extremely important
+
+> The Capstone Project gave me a glimpse on real-world use of code
+
+### 2023
+
+> I liked the parts where algorithms were slowly discussed in order for us to grasp how it works, instead of purely memorising the data structure methods
+
+> The capstone project was useful in teaching us Git skills as well as the use case of databases and web applications in real life
+
+> I think the Capstone project really helped me to understand how a whole webapp works. We got to work in a team and each member played a certain role, such as frontend and backend. It was really interesting to see how it all connects up, and also gave me an opportunity to work in a team.
+
+### 2024
+
 To be added
 
 ## Advice from seniors
