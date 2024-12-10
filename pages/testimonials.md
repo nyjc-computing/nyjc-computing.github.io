@@ -5,8 +5,10 @@ layout: page
 ---
 
 ## Testimonials
-Here are some testimonials and advice from seniors
 
+To be added
+
+## Advice from seniors
 
 Just start doing projects and writing scripts as early as possible in whatever you're even momentarily interested in so that you can not only apply and recall the lessons but also learn new things outside of the classroom.  
 Actual real-world projects are probably the best way to do well for exams as well as learn about programming in general.  
@@ -31,4 +33,3 @@ There are many past year prelim papers on holy grail Google drive to prepare for
 Do past year papers to prepare and do brainscape regularly  
 Do not overlook theory content  
 Try to score as much for Paper 2 as possible. It gives you a lot of leeway for Paper 1 if you can score around 90 for Paper 2.  
-
