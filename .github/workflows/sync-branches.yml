@@ -21,44 +21,28 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
 
-      - name: Sync with Dev Branch (Squash Merge)
+      - name: Sync with Dev Branch
         run: |
-          git checkout main
-          git pull origin main
           git checkout dev
-          git pull origin dev
+          git pull origin dev || echo "No changes to pull for dev"
+          git reset --hard origin/main
           git merge --squash origin/main || echo "No changes to merge for dev"
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Squash merge changes from main into dev"
-            git push origin dev
-            if git diff --quiet main dev; then
-              echo "dev is up to date with main; resetting dev to main"
-              git reset --hard main
-              git push origin dev --force
-            else
-              echo "dev is not up to date with main; skipping reset"
-            fi
-          else
-            echo "No changes to commit for dev"
+            git push origin dev || echo "Failed to push dev branch"
           fi
+          git reset --hard main
+          git push origin dev --force || echo "Failed to force push dev branch"
 
-      - name: Sync with Content Branch (Squash Merge)
+      - name: Sync with Content Branch
         run: |
-          git checkout main
-          git pull origin main
           git checkout content
-          git pull origin content
+          git pull origin content || echo "No changes to pull for content"
+          git reset --hard origin/main
           git merge --squash origin/main || echo "No changes to merge for content"
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Squash merge changes from main into content"
-            git push origin content
-            if git diff --quiet main content; then
-              echo "content is up to date with main; resetting content to main"
-              git reset --hard main
-              git push origin content --force
-            else
-              echo "content is not up to date with main; skipping reset"
-            fi
-          else
-            echo "No changes to commit for content"
+            git push origin content || echo "Failed to push content branch"
           fi
+          git reset --hard main
+          git push origin content --force || echo "Failed to force push content branch"
