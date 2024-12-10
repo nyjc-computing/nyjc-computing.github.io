@@ -1,0 +1,43 @@
+name: Sync Content and Dev with Main
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write  # Allows pushing changes to the repository
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Ensure a full clone for history
+
+      # Step 2: Setup Git User
+      - name: Setup Git User
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+
+      # Step 3: Sync with Content Branch
+      - name: Sync with Content
+        run: |
+          git checkout main
+          git pull origin main
+          git checkout content
+          git merge --ff-only main || git merge --squash main
+          git push origin content
+
+      # Step 4: Sync with Dev Branch
+      - name: Sync with Dev
+        run: |
+          git checkout main
+          git pull origin main
+          git checkout dev
+          git merge --ff-only main || git merge --squash main
+          git push origin dev
