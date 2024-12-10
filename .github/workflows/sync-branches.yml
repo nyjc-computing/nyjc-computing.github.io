@@ -31,6 +31,13 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Squash merge changes from main into dev"
             git push origin dev
+            if git diff --quiet main dev; then
+              echo "dev is up to date with main; resettting dev to main"
+              git reset --hard main
+              git push origin dev --force
+            else
+              echo "dev is not up to date with main; skipping reset"
+            fi
           else
             echo "No changes to commit for dev"
           fi
@@ -45,6 +52,13 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Squash merge changes from main into content"
             git push origin content
+            if git diff --quiet main content; then
+              echo "content is up to date with main; resettting content to main"
+              git reset --hard main
+              git push origin content --force
+            else
+              echo "content is not up to date with main; skipping reset"
+            fi
           else
             echo "No changes to commit for content"
           fi
