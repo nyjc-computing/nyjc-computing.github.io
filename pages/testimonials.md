@@ -61,5 +61,3 @@ right_column: |
 ### 2021
 
 > This subject is not going to be beginner friendly, it took me a year of struggling just to understand what i am doing, but its a subject with the most exponential learning curve, your learning will keep growing until it is no longer a painful but a fun subject to do.
-
---> 
