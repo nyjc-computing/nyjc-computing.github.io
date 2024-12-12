@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ '/assets/normalize.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/open-color.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/monophase/styles.css' | relative_url }}">
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Computing @ NYJC" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+    <title>{{ page.title }} | Computing @ NYJC</title>
+    <meta name="generator" content="Jekyll v3.10.0" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="Public page for NYJC’s Computing programme and team" />
+    <meta property="og:description" content="Public page for NYJC’s Computing programme and team" />
+    <link rel="canonical" href="http://localhost:4000{{ page.url }}" />
+    <meta property="og:url" content="http://localhost:4000{{ page.url }}" />
+    <meta property="og:site_name" content="Computing @ NYJC" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="{{ page.title }}" />
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"WebPage","description":"Public page for NYJC’s Computing programme and team","headline":"{{ page.title }}","url":"http://localhost:4000{{ page.url }}"}
+    </script>
+    <!-- End Jekyll SEO tag -->
+    <script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+    <style>
+        .container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap; /* Ensures the columns wrap if there's not enough space */
+        }
+        .left-column, .right-column {
+            flex: 1;
+            padding: 10px;
+        }
+        .row {
+            display: flex;
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <header class="masthead">
+            <div class="masthead-title">
+                <a href="/" title="Home">Computing @ NYJC</a>
+            </div>
+        </header>
+        <main>
+            <div class = "masthead-title">{{ page.title | default: "no title found"}} </div>
+            <div class = "page-title">{{page.prologue}}</div>
+            <div class="row">
+                <div class="left-column">
+                    <!-- Left column content here --> 
+                     {{ content }} 
+                </div> 
+                <div class="right-column">
+                    <!-- Right column content here -->
+                    {{ page.right_column | default: "no right column content found"}}
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-column">
+                <p>
+                    <small>
+                        &copy;&nbsp;<time datetime="2024-12-10T14:14:01+00:00">2024</time>. All rights reserved.
+                    </small>
+                </p>
+                <p>
+                    <small>
+                        Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> & <a href="https://github.com/zivhub/monophase" target="_blank">Monophase</a>
+                    </small>
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

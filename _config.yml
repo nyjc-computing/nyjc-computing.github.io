@@ -2,6 +2,10 @@
 title: Computing @ NYJC
 timezone: UTC
 collections:
+  two-column: 
+    output: true
+  pages: 
+    output: true
   posts:
     title: Posts
     output: true
