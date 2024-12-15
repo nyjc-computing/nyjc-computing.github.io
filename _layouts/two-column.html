@@ -39,11 +39,23 @@
             display: flex;
             width: 100%;
         }
+        .two-column-layout {
+            column-count: 2;           /* Splits content into two columns */
+            column-gap: 30px;          /* Adds space between the columns */
+            max-width: 800px;          /* Optional: Set a maximum width for the layout */
+            margin: 0 auto;            /* Centers the content horizontally */
+        }
+        hr {
+            border: 0; /* Removes the default border */
+            height: 2px; /* Defines the thickness of the line */
+            background-color: #BBB; /* Sets the color of the line */
+            margin: 20px 0; /* Adds space above and below the line */
+        }
     </style>
 
 </head>
 <body>
-    <div class="container">
+    <div class="container"> 
         <header class="masthead">
             <div class="masthead-title">
                 <a href="/" title="Home">Computing @ NYJC</a>
@@ -51,17 +63,18 @@
         </header>
         <main>
             <div class = "masthead-title">{{ page.title | default: "no title found"}} </div>
-            <div class = "page-title">{{page.prologue}}</div>
-            <div class="row">
-                <div class="left-column">
-                    <!-- Left column content here --> 
-                     {{ content }} 
-                </div> 
-                <div class="right-column">
-                    <!-- Right column content here -->
-                    {{ page.right_column | default: "no right column content found"}}
-                </div>
-            </div>
+            <hr>
+            <div class="content">
+                {% assign paragraphs = content | split: "</p>" %}
+            
+                {% for paragraph in paragraphs %}
+                  <div class="paragraph">
+                    <!-- Add opening <p> tag back -->
+                    <p class = "two-column-layout">{{ paragraph | strip_newlines | strip_html | escape }}</p>
+                  </div>
+                  <hr>
+                {% endfor %}
+              </div>
         </main>
         <footer class="footer">
             <div class="footer-column">
