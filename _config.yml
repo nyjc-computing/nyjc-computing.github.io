@@ -17,3 +17,13 @@ github_username: nycomp
 theme: monophase
 plugins:
 - jekyll-feed
+
+nav_links:
+  - title: "Our Programme"
+    url: "/our-programme.html"
+  - title: "FAQ"
+    url: "/faq.html"
+  - title: "About"
+    url: "/about.html"
+  - title: "Testimonials"
+    url: "/testimonials.html"
