@@ -1,8 +1,11 @@
 ---
-layout: two-column
 title: "Testimonials & Advice from Seniors"
 permalink: "/testimonials"
+layout: flex-column
+style: "assets/custom.css"
 ---
+
+(Refresh the page to see different testimonials.)
 
 ## Testimonials
 
