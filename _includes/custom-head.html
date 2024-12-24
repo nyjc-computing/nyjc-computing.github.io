@@ -1,3 +1,6 @@
 {% if page.style %}
     <link rel="stylesheet" href="{{ page.style | relative_url }}">
 {% endif %}
+{% if page.script %}
+    <script src="{{ page.script | relative_url }}"></script>
+{% endif %}
