@@ -1,8 +1,12 @@
 ---
-title: Testimionials & Advice from Seniors
+title: "Testimonials & Advice from Seniors"
 permalink: "/testimonials"
-layout: page
+layout: flex-column
+style: "assets/custom.css"
+script: "assets/custom.js"
 ---
+
+(Refresh the page to see different testimonials.)
 
 ## Testimonials
 
@@ -16,7 +20,7 @@ layout: page
 
 ### 2022
 
-> [Through] the group project, I realised that a lot of coordination is needed + how programmers actually do their projects seperately to finish a big big project
+> Through the group project, I realised that a lot of coordination is needed + how programmers actually do their projects seperately to finish a big big project
 
 > Capstone project was useful in seeing how a practical application is developed and how organisation of code and planning is extremely important
 

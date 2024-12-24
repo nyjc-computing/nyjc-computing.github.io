@@ -1,0 +1,12 @@
+div.flex-row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+blockquote p {
+    margin-bottom: 0px;
+}
+
+blockquote.testimonial {
+    display: block;
+}
