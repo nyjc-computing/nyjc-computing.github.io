@@ -15,9 +15,9 @@ Students who wish to push themselves beyond the H2 Computing syllabus have three
 
 Students develop their knowledge and mastery of algorithms and data structures through:
 - Courses conducted by NUS CeNCE
-- Training provided through the NY Robotics and Competitive Programming Club
+- Training provided by the NY Robotics and Computer Science CCA (NYRCS) and the NY Competitive Programming SIG (NYCP)
 - Learning from seniors and alumni in our nyjc_computing Discord server
-- The Informatics Olympiad (NOI)
+- The National Olympiad in Informatics (NOI)
 
 ### Cybersecurity
 
@@ -25,6 +25,7 @@ Students develop their knowledge of computer security vulnerabilities and mitiga
 - A variety of hackathons organised by NUS, NTU, and SMU
 - Cyberthon, Brainhack, and various events organised by CSIT, DSTA, and other government cybersecurity agencies
 - The Sentinel Programme, organised by DIS
+- Training provided by NYRCS
 
 ### Application Development
 
