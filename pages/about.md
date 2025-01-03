@@ -2,6 +2,7 @@
 title: About
 permalink: "/about"
 layout: page
+style: assets/custom.css
 ---
 
 # Our Staff
