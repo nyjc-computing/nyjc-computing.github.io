@@ -1,6 +1,6 @@
 ---
 title: Computing @ NYJC
-layout: default
+layout: home
 style: assets/custom.css
 ---
 
