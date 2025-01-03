@@ -9,8 +9,18 @@ style: assets/custom.css
 
 ## Mr Ng Jun Siang
 
-![Photograph of Mr Ng Jun Siang](/images/NYJC_NgJunSiang.jpg)
+<div style="display: flex;">
+    <img src="/images/NYJC_NgJunSiang.jpg" alt="Photograph of Mr Ng Jun Siang" style="max-width: 200px; margin-right: 10px;">
+    <div>
+        <!-- Add content here -->
+    </div>
+</div>
 
 ## Mr V Surya
 
-![Photograph of Mr V Surya](/images/NYJC_VSurya.jpg)
+<div style="display: flex;">
+    <img src="/images/NYJC_VSurya.jpg" alt="Photograph of Mr V Surya" style="max-width: 200px; margin-right: 10px;">
+    <div>
+        <!-- Add content here -->
+    </div>
+</div>
