@@ -1,4 +1,7 @@
-/* Navbar current item */
+/* Override styling for navbar current & focused item */
+.nav-list a:hover, .nav-list a:focus .nav-list a.current {
+    text-decoration: none;
+}
 .nav-list a.current {
     pointer-events: none;
     cursor: default;
