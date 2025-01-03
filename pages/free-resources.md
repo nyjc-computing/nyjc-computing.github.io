@@ -2,6 +2,7 @@
 title: Free Resources
 permalink: "/free-resources"
 layout: page
+style: assets/custom.css
 ---
 
 # Free Resources
