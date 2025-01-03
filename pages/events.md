@@ -2,6 +2,7 @@
 title: Events
 permalink: "/events"
 layout: page
+style: assets/custom.css
 ---
 
 ## Competitions
