@@ -3,7 +3,7 @@ title: Free Resources
 permalink: "/free-resources"
 layout: page
 ---
-gi
+
 # Useful Links for Reference
 
 ## Intro to Python
