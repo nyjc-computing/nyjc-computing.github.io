@@ -1,6 +1,7 @@
 ---
 title: Computing @ NYJC
 layout: default
+style: assets/custom.css
 ---
 
 - [Our Programme](/our-programme)
