@@ -1,3 +1,10 @@
+/* Navbar current item */
+.nav-list a.current {
+    pointer-events: none;
+    cursor: default;
+    font-weight: bold;
+}
+
 div.flex-row {
     display: flex;
     flex-flow: row wrap;
