@@ -20,3 +20,4 @@ github_username: nycomp
 theme: monophase
 plugins:
 - jekyll-feed
+google_analytics: G-RLM2EJYV9N
