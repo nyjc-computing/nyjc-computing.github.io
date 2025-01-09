@@ -1,14 +1,14 @@
 ---
 title: Open House 2025
 author: Mr Ng
-date: 2025-01-10 08:00:00 Z
+date: 2025-01-09 12:09:00 +0800
 categories:
 - update
 layout: post
 description: "Information about Open House 2025"
 ---
 
-Congratulations, Sec 4 class of 2024! You will be receiving your results very soon, and I know some of you will be considering NYJC as one of your options. If you don't know what the H2 Computing subject is about, or have some idea of it but would like to find out more, here are some resources you can look at:
+Congratulations, Sec 4 class of 2024! You will be receiving your results tomorrow, and I know some of you will be considering NYJC as one of your options. If you don't know what the H2 Computing subject is about, or have some idea of it but would like to find out more, here are some resources you can look at:
 
 - [A-Level curriculum and subject syllabuses](https://www.moe.gov.sg/post-secondary/a-level-curriculum-and-subject-syllabuses) [MOE]
 - [Computing (Syllabus 9569)](https://www.seab.gov.sg/docs/default-source/national-examinations/syllabus/alevel/2025-a-level-syllabus/9569_y25_sy.pdf) [SEAB]
