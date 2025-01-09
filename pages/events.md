@@ -35,7 +35,7 @@ style: assets/custom.css
     - Expected period: Dec
 
 - **CeNCE courses**
-- See [CeNCE's website](https://cence.comp.nus.edu.sg/cence/courses.html)
+    - See [CeNCE's website](https://cence.comp.nus.edu.sg/cence/courses.html)
 
 
 ## CTFs
