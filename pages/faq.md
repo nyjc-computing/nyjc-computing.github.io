@@ -17,9 +17,9 @@ You can refer to the admissions websites of the universities for further informa
 
 ## What is the H2 Computing A Level examination like?
 
-The exam syllabus for all A level subjects can be found on SEAB's website. The current syllabus for H2 Computing is 9569.
+The exam syllabus for all A level subjects can be found on [SEAB's website](https://www.seab.gov.sg/gce-a-level/school-candidates/). The current syllabus for H2 Computing is 9569 ([2025](https://www.seab.gov.sg/files/A%20Level%20Syllabus%20Sch%20Cddts/2025/9569_y25_sy.pdf), [2026](https://www.seab.gov.sg/files/A%20Level%20Syllabus%20Sch%20Cddts/2026/9569_y26_sy.pdf)).
 
-There are two papers. Paper 1 is a 3-hr written paper. Paper 2 is a 3-hr lab-based paper, administered digitally on a laptop. The code files/submissions are uploaded via an electronic system at the end of the exam.
+There are two papers. Paper 1 is a 3-hr written paper. Paper 2 is a 3-hr lab-based paper, administered digitally on a laptop without internet access. The code files/submissions are uploaded via an electronic system at the end of the exam.
 
 ## Why would I want to take H2 Computing as a subject?
 
