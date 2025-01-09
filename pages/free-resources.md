@@ -5,8 +5,6 @@ layout: page
 style: assets/custom.css
 ---
 
-# Free Resources
-
 These resources are created by us as part of our teaching content, and may be used for non-commercial purposes. If you do use them as-is with minor changes, please credit us with a link to the respective repositories so users can find the original source.
 
 ## Intro to Python
