@@ -22,7 +22,7 @@ style: assets/custom.css
 <div style="display: flex;">
     <img src="/images/NYJC_VSurya.jpg" alt="Photograph of Mr V Surya" style="max-width: 200px; margin-right: 10px;">
     <div>
-        <p>Mr V Surya has Been teaching Computing at A Level since 2021, and Computing at O Level prior to that.</p>
+        <p>Mr V Surya has been teaching Computing at A Level since 2021, and Computing at O Level prior to that. He graduated from NTU with a BEng in Electrical and Electronic Engineering and an MEd in Learning Sciences and Technologies.</p>
         <p>In addition to teaching, he also mentors students in the NY Robotics and Computer Science Club, applying his experience from enterprise software engineering.</p>
     </div>
 </div>
