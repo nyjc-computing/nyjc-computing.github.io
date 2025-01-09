@@ -4,5 +4,12 @@
         "url": "https://www.seab.gov.sg/files/A%20Level%20Syllabus%20Sch%20Cddts/2026/9569_y26_sy.pdf"
     },
     "2025-syllabus": "https://www.seab.gov.sg/files/A%20Level%20Syllabus%20Sch%20Cddts/2025/9569_y25_sy.pdf",
-    "2026-syllabus": "https://www.seab.gov.sg/files/A%20Level%20Syllabus%20Sch%20Cddts/2026/9569_y26_sy.pdf"
+    "2026-syllabus": "https://www.seab.gov.sg/files/A%20Level%20Syllabus%20Sch%20Cddts/2026/9569_y26_sy.pdf",
+    "admissions": {
+        "NUS": "https://www.join.comp.nus.edu.sg/apply",
+        "NTU": "https://www.ntu.edu.sg/admissions/undergraduate-programmes?listingKeyword=Computing&disciplines=engineering%7Cscience&programmelevels=single-degree%7Csingle-degree-with-2nd-major%7Cdouble-degree&programmetypes=all&page=1",
+        "SIT": "https://www.singaporetech.edu.sg/undergraduate-programmes",
+        "SMU": "https://admissions.smu.edu.sg/admissions-requirements/singapore-cambridge-gce-levels",
+        "SUTD": "https://www.sutd.edu.sg/Admissions/Undergraduate/Application/Admission-Requirements/Singapore-Cambridge-GCE-A-Level"
+    }
 }

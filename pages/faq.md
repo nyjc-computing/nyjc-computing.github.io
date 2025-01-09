@@ -10,10 +10,8 @@ style: assets/custom.css
 No autonomous university in Singapore strictly requires H2 Computing for admission. That means you can apply for admission even without H2 Computing.
 You can refer to the admissions websites of the universities for further information:
 
-- [NUS](https://www.join.comp.nus.edu.sg/apply)
-- [NTU](https://www.ntu.edu.sg/admissions/undergraduate-programmes?listingKeyword=Computing&disciplines=engineering%7Cscience&programmelevels=single-degree%7Csingle-degree-with-2nd-major%7Cdouble-degree&programmetypes=all&page=1)
-- [SMU](https://admissions.smu.edu.sg/admissions-requirements/singapore-cambridge-gce-levels)
-- [SUTD](https://www.sutd.edu.sg/Admissions/Undergraduate/Application/Admission-Requirements/Singapore-Cambridge-GCE-A-Level)
+{% for uni in site.data.links.admissions %}
+- [{{uni | first}}]({{uni | last}}){% endfor %}
 
 ## What is the H2 Computing A Level examination like?
 
