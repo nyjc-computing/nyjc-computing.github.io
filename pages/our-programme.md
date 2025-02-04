@@ -28,7 +28,7 @@ Students develop their knowledge of computer security vulnerabilities and mitiga
 - The Sentinel Programme, organised by DIS
 - Training provided by NYRCS
 
-### Application Development
+### Application Development and AI (Nanyang System Developers)
 
 Students develop their ability to design an application system, lead and be part of a software engineering team, and manage stakeholder goals through:
 - Programming projects, self-initiated or selected from an available pool
