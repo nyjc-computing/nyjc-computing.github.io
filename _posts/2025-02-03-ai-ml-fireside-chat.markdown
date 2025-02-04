@@ -18,7 +18,7 @@ Huikang began by highlighting the current capabilities of AI, particularly in ta
 
 ![A speaker, Huikang, standing at the front of a classroom next to a presentation slide titled 'Reflecting on my journey.' Students are seated attentively, with a cozy setup featuring chairs and bright walls.](/images/2025-02-03/AI_ML Fireside Chat 05.jpg)
 
-However, he was quick to point out that AI still has limitations, especially in tasks that are difficult to describe or require complex decision-making. “You need to be aware of what AI should be responding and what AI should not be responding,” Huikang advised, emphasising the importance of critical thinking in the age of AI.
+However, he was quick to point out that AI still has limitations, especially in tasks that are difficult to describe or require complex decision-making. “You need to be aware of what a good response AI should look like, and what a poor response should look like,” Huikang advised, emphasising the importance of critical thinking in the age of AI.
 
 ## Preparing for a Tech Career
 
@@ -39,3 +39,5 @@ Huikang also encouraged students to look at their seniors and alumni, reverse-en
 As the session concluded, students left with a clearer understanding of the challenges and opportunities that lie ahead in the world of technology and AI. The talk not only provided practical advice but also inspired our students to think critically about their future careers and the role they play in shaping their path.
 
 We extend our heartfelt thanks to Huikang for sharing his expertise and insights, and to all the students who participated in this enlightening session. With the landscape of work potentially about to undergo rapid transformation, events like these play a crucial role in letting our students hear from working professionals who can share their real-world experience and context regarding the challenges and opportunities that lie ahead.
+
+Huikang has also [written about the talk on LinkedIn](https://www.linkedin.com/posts/huikang-tong_today-i-gave-my-observations-and-prediction-activity-7292168349432659968-6XPf), with a summary of his advice.
