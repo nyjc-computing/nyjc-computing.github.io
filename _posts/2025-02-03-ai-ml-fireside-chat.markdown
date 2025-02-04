@@ -16,7 +16,7 @@ In a thought-provoking fireside chat, Huikang, a machine learning engineer at Qu
 
 Huikang began by highlighting the current capabilities of AI, particularly in tasks that are easy to describe and evaluate. “AI can help you pass tasks that are easy to describe,” he explained, citing examples like writing essays, solving coding problems, and even tackling math.
 
-![A speaker, Huikang, standing at the front of a classroom next to a presentation slide titled 'Reflecting on my journey.' Students are seated attentively, with a cozy setup featuring chairs and bright walls.](20250203 AI_ML Fireside Chat 05.jpg)
+![A speaker, Huikang, standing at the front of a classroom next to a presentation slide titled 'Reflecting on my journey.' Students are seated attentively, with a cozy setup featuring chairs and bright walls.](2025-02-03/AI_ML Fireside Chat 05.jpg)
 
 However, he was quick to point out that AI still has limitations, especially in tasks that are difficult to describe or require complex decision-making. “You need to be aware of what AI should be responding and what AI should not be responding,” Huikang advised, emphasising the importance of critical thinking in the age of AI.
 
@@ -24,7 +24,7 @@ However, he was quick to point out that AI still has limitations, especially in 
 
 One of the most valuable parts of the talk was Huikang’s advice on preparing for a career in technology. He stressed the importance of building and deploying projects, stating, “If you are able to do this, you will be able to make products from few things, which is much better than just doing other things.”
 
-![Huikang seated in a casual fireside chat setup, engaging with a group of students arranged in a semi-circle within a vibrant room featuring mural-style wall art.](20250203 AI_ML Fireside Chat 13.jpg)
+![Huikang seated in a casual fireside chat setup, engaging with a group of students arranged in a semi-circle within a vibrant room featuring mural-style wall art.](2025-02-03/AI_ML Fireside Chat 13.jpg)
 
 Huikang also encouraged students to look at their seniors and alumni, reverse-engineering their career paths to understand what it takes to succeed. “You need to actually reach out to people,” he emphasised, highlighting the importance of networking and proactive learning.
 
