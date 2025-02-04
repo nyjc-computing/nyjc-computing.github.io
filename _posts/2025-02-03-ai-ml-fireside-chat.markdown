@@ -8,8 +8,6 @@ layout: post
 description: "AI & Machine Learning fireside chat with Tong Huikang, Quora engineer"
 ---
 
-# Navigating the Future: AI, Career Insights, and Personal Growth
-
 In a thought-provoking fireside chat, Huikang, a machine learning engineer at Quora, shared invaluable insights with NYJCians. The event, aimed at bridging the gap between academic learning and real-world applications, offered a glimpse into the rapidly evolving landscape of AI and software engineering.
 
 ## The Power of AI and Its Limitations
