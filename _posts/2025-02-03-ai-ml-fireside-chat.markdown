@@ -18,7 +18,7 @@ Huikang began by highlighting the current capabilities of AI, particularly in ta
 
 ![A speaker, Huikang, standing at the front of a classroom next to a presentation slide titled 'Reflecting on my journey.' Students are seated attentively, with a cozy setup featuring chairs and bright walls.](/images/2025-02-03/AI_ML Fireside Chat 05.jpg)
 
-However, he was quick to point out that AI still has limitations, especially in tasks that are difficult to describe or require complex decision-making. “You need to be aware of what a good response AI should look like, and what a poor response should look like,” Huikang advised, emphasising the importance of critical thinking in the age of AI.
+However, he was quick to point out that AI still has limitations, especially in tasks that are difficult to describe or require complex decision-making. “You need to be aware of what a good response should look like, and what a poor response would look like,” Huikang advised, emphasising the importance of critical thinking in the age of AI.
 
 ## Preparing for a Tech Career
 
