@@ -31,9 +31,7 @@ Students develop their knowledge of computer security vulnerabilities and mitiga
 ### Application Development and AI (Nanyang System Developers)
 
 Students develop their ability to design an application system, lead and be part of a software engineering team, and manage stakeholder goals through:
-- Programming projects, self-initiated or selected from an available pool
+- Programming projects, self-initiated or [selected from an available pool](https://for.edu.sg/ny-student-project-portal)
 - Collaborations with other CCAS and SIGs
 - VIA projects that benefit the college and/or community
 - Ongoing mentorship with experienced tutors to learn and experience industry best practices
-
-
