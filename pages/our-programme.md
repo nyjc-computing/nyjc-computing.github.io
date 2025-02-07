@@ -28,10 +28,13 @@ Students develop their knowledge of computer security vulnerabilities and mitiga
 - The Sentinel Programme, organised by DIS
 - Training provided by NYRCS
 
-### Application Development and AI (Nanyang System Developers)
+### Application Development and AI
 
 Students develop their ability to design an application system, lead and be part of a software engineering team, and manage stakeholder goals through:
-- Programming projects, self-initiated or [selected from an available pool](https://for.edu.sg/ny-student-project-portal)
-- Collaborations with other CCAS and SIGs
-- VIA projects that benefit the college and/or community
-- Ongoing mentorship with experienced tutors to learn and experience industry best practices
+- Personal programming projects
+- Nanyang System Developers, NYJC's in-house Computing talent development programme
+  - create useful apps and services for NYJC
+  - propose an initiative or [select from an available pool](https://for.edu.sg/ny-student-project-portal)
+  - propose collaborations with other CCAS and SIGs
+  - propose VIA projects that benefit the college and/or community
+- Ongoing mentorship (if necessary) with experienced engineers for accelerated learning
