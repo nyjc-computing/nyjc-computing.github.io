@@ -32,9 +32,5 @@ Students develop their knowledge of computer security vulnerabilities and mitiga
 
 Students develop their ability to design an application system, lead and be part of a software engineering team, and manage stakeholder goals through:
 - Personal programming projects
-- Nanyang System Developers, NYJC's in-house Computing talent development programme
-  - create useful apps and services for NYJC
-  - propose an initiative or [select from an available pool](https://for.edu.sg/ny-student-project-portal)
-  - propose collaborations with other CCAS and SIGs
-  - propose VIA projects that benefit the college and/or community
+- [Nanyang System Developers](/nanyang-system-developers), NYJC's in-house Computing talent development programme
 - Ongoing mentorship (if necessary) with experienced engineers for accelerated learning
