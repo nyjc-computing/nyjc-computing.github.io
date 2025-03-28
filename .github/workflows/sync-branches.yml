@@ -10,6 +10,9 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        branches: [dev, content]  # Add new branches here
     steps:
       - name: Checkout Main Branch
         uses: actions/checkout@v3
@@ -21,20 +24,19 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
 
-      - name: Sync with Dev Branch
+      - name: Sync with ${{ matrix.branch }}
         run: |
-          git checkout dev
-          git pull origin dev || echo "No changes to pull for dev"
+          TARGET_BRANCH="${{ matrix.branch }}"
+          git checkout $TARGET_BRANCH
+          git pull origin $TARGET_BRANCH || echo "No changes to pull for $TARGET_BRANCH"
           git reset --hard origin/main
-          git merge --squash origin/main || echo "No changes to merge for dev"
+          git merge --squash origin/main || echo "No changes to merge for $TARGET_BRANCH"
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Squash merge changes from main into dev"
-            git push origin dev || echo "Failed to push dev branch"
+            git commit -m "Squash merge changes from main into $TARGET_BRANCH"
+            git push origin $TARGET_BRANCH || echo "Failed to push $TARGET_BRANCH"
           fi
           git reset --hard main
-          git push origin dev --force || echo "Failed to force push dev branch"
-
-      - name: Sync with Content Branch
+          git push origin $TARGET_BRANCH --force || echo "Failed to force push $TARGET_BRANCH"     - name: Sync with Content Branch
         run: |
           git checkout content
           git pull origin content || echo "No changes to pull for content"
