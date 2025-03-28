@@ -36,15 +36,4 @@ jobs:
             git push origin $TARGET_BRANCH || echo "Failed to push $TARGET_BRANCH"
           fi
           git reset --hard main
-          git push origin $TARGET_BRANCH --force || echo "Failed to force push $TARGET_BRANCH"     - name: Sync with Content Branch
-        run: |
-          git checkout content
-          git pull origin content || echo "No changes to pull for content"
-          git reset --hard origin/main
-          git merge --squash origin/main || echo "No changes to merge for content"
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Squash merge changes from main into content"
-            git push origin content || echo "Failed to push content branch"
-          fi
-          git reset --hard main
-          git push origin content --force || echo "Failed to force push content branch"
+          git push origin $TARGET_BRANCH --force || echo "Failed to force push $TARGET_BRANCH"
