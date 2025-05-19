@@ -5,8 +5,6 @@ layout: page
 style: assets/custom.css
 ---
 
-# NYJC Computing Student Use License (NYJC-CSUL)
-**Version 1.0 – Effective 19/05/2025**  
 [Full license available at nyjc-computing.github.io/LICENSE](https://nyjc-computing.github.io/LICENSE)
 
 ---
