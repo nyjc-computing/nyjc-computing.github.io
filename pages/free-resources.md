@@ -7,6 +7,12 @@ style: assets/custom.css
 
 These resources are created by us as part of our teaching content, and may be used for non-commercial purposes. If you do use them as-is with minor changes, please credit us with a link to the respective repositories so users can find the original source.
 
+## 2026 UAS Calculator
+
+Can't figure out what UAS you will get? Trying to optimise your study strategy? Let our UAS Calculator help you out!
+
+[2026 UAS Calculator](/2026-uas-calculator)
+
 ## Intro to Python
 
 These exercises for Python beginners are part of a guided lesson package for H2 Computing students, with a greater focus on picking up Python features quickly.
