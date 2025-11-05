@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        branches: [dev, content]  # Add new branches here
+        branches: [content]  # Add new branches here
     steps:
       - name: Checkout Main Branch
         uses: actions/checkout@v3
@@ -27,13 +27,21 @@ jobs:
       - name: Sync with ${{ matrix.branch }}
         run: |
           TARGET_BRANCH="${{ matrix.branch }}"
-          git checkout $TARGET_BRANCH
-          git pull origin $TARGET_BRANCH || echo "No changes to pull for $TARGET_BRANCH"
-          git reset --hard origin/main
-          git merge --squash origin/main || echo "No changes to merge for $TARGET_BRANCH"
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Squash merge changes from main into $TARGET_BRANCH"
-            git push origin $TARGET_BRANCH || echo "Failed to push $TARGET_BRANCH"
+          git fetch --all --prune
+          # Checkout the target branch and ensure it's up-to-date with origin
+          git checkout ${TARGET_BRANCH}
+          git pull --no-rebase origin ${TARGET_BRANCH} || true
+
+          # Merge origin/main into the target branch (automatic merge).
+          # Use --no-ff to create an explicit merge commit when required and
+          # --no-edit to avoid interactive editor for the merge message.
+          if git merge --no-ff --no-edit origin/main; then
+            git push origin ${TARGET_BRANCH}
+          else
+            # On merge conflict, abort and push a backup branch so nothing is lost.
+            git merge --abort || true
+            BACKUP_BRANCH="backup/${TARGET_BRANCH}-merge-failed-$(date +%s)"
+            git push origin HEAD:refs/heads/${BACKUP_BRANCH}
+            echo "Merge failed. Backup pushed to ${BACKUP_BRANCH}. Exiting with failure."
+            exit 1
           fi
-          git reset --hard main
-          git push origin $TARGET_BRANCH --force || echo "Failed to force push $TARGET_BRANCH"
