@@ -27,13 +27,14 @@ Hence, most students in NYJC who take Computing are either firmly determined to 
 
 ## What will I learn in H2 Computing at NYJC?
 
-We cover 5 broad Computing-related areas in the course of the two-year programme:
+We cover 6 broad Computing-related areas in the course of the two-year programme:
 
 1. Programming
 2. Data Principles
 3. Algorithms and Data Structures
 4. Computer Networks
 5. Computers and Society
+6. Machine Learning and AI
 
 We take a hands-on approach to learning. Students carry out tasks in practical lessons, then learn the theory behind what they just did. They will progressively write programs of greater complexity, moving from individual work to pair programming, and finally to a team context.
 

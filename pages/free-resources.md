@@ -13,9 +13,15 @@ Can't figure out what UAS you will get? Trying to optimise your study strategy? 
 
 [2026 UAS Calculator](/2026-uas-calculator)
 
+## Programming in Python
+
+These lesson modules are designed for a guided course in learning Computing fundamentals with Python. We use these lesson modules in our H2 Computing programme for JC1 students.
+
+[GitHub Repository](https://github.com/nyjc-computing/programming-in-python)
+
 ## Intro to Python
 
-These exercises for Python beginners are part of a guided lesson package for H2 Computing students, with a greater focus on picking up Python features quickly.
+These lesson modules are designed as self-guided exercises for Python newcomers, with a greater focus on picking up Python features quickly. Use this set of exercises if you need to learn Python for an external event or for data analysis, and don't have the time to focus on fundamentals.
 
 [GitHub Repository](https://github.com/nyjc-computing/intro-to-python)
 
