@@ -14,31 +14,15 @@ You can refer to the admissions websites of the universities for further informa
 - [{{uni | first}}]({{uni | last}}){% endfor %}
 
 ## What is the H2 Computing A Level examination like?
+## What will I learn in H2 Computing at NYJC?
 
-The exam syllabus for all A level subjects can be found on [SEAB's website](https://www.seab.gov.sg/gce-a-level/school-candidates/). The current syllabus for H2 Computing is 9569 ([{{site.data.links["current-syllabus"]["year"]}}]({{site.data.links["current-syllabus"]["url"]}})).
-
-There are two papers. Paper 1 is a 3-hr written paper. Paper 2 is a 3-hr lab-based paper, administered digitally on a laptop without internet access. The code files/submissions are uploaded via an electronic system at the end of the exam.
+Our [Syllabus](/syllabus) page covers the exam syllabus, our approach to lessons, and the topics covered in JC1 and JC2.
 
 ## Why would I want to take H2 Computing as a subject?
 
 H2 Computing is not required for admission to any university degree programme. In the JAE system, it also counts as a science stream subject.
 
 Hence, most students in NYJC who take Computing are either firmly determined to take a Math-/Computing-related degree programme, or are intending to take only one Science subject (Physics / Chemistry).
-
-## What will I learn in H2 Computing at NYJC?
-
-We cover 6 broad Computing-related areas in the course of the two-year programme:
-
-1. Programming
-2. Data Principles
-3. Algorithms and Data Structures
-4. Computer Networks
-5. Computers and Society
-6. Machine Learning and AI
-
-We take a hands-on approach to learning. Students carry out tasks in practical lessons, then learn the theory behind what they just did. They will progressively write programs of greater complexity, moving from individual work to pair programming, and finally to a team context.
-
-Their learning experience is capped off with a Summary Project in JC1, and a Capstone Project in JC2.
 
 ## What will be covered in the diagnostic test? Am I disadvantaged if I do not have any background in programming?
 

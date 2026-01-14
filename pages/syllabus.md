@@ -44,3 +44,4 @@ At NYJC, we cover the above modules with a hands-on approach to learning. Studen
 - Computer Networks
 - Data and Network Security
 - Computers and Society
+- Capstone Project
