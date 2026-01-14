@@ -8,6 +8,10 @@ style: assets/custom.css
 ## Our Approach
 At NYJC, we take a hands-on approach to learning. Computing students will learn the syllabus topics through a variety of programming exercises that keep the focus on gaining programming experience. We then use this experience as an anchor for the theoretical principles that improve their programming.
 
+## Computing lessons
+
+See our [Syllabus](/syllabus) page for details on our lesson approach and topics covered in JC1 and JC2.
+
 ## Learning Tracks
 
 Students who wish to push themselves beyond the H2 Computing syllabus have three (optional) tracks of development available to them.
