@@ -30,8 +30,7 @@ The diagnostic test assesses dispositions towards complex tasks, and does not re
 
 Submissions are assessed on the following demonstrated abilities and dispositions:
 
-- **Pattern recognition** — spot and exploit patterns in the problem
-- **Problem decomposition** — analyse the problem and breaks it down into parts
-- **Solution composition** — compose a solution from provided pieces
-- **Logical deduction** — draw logical conclusions from given evidence
-
+- **Decomposition** — Breaking problems into manageable parts
+- **Composition** — Integrating parts into coherent solutions
+- **Structural Recognition** — Seeing common patterns across different contexts
+- **State Reasoning** — Tracking how state changes through a process
