@@ -12,6 +12,9 @@ style: assets/custom.css
 
 - **National Olympiad in Informatics (NOI)**
     - Expected period: Feb - Mar
+ 
+- **National Cybersecurity Olympiad**
+    - Expected period: Feb - Mar
 
 - **Cyberthon**
     - Expected period: Apr - May

@@ -8,6 +8,10 @@ style: assets/custom.css
 ## Our Approach
 At NYJC, we take a hands-on approach to learning. Computing students will learn the syllabus topics through a variety of programming exercises that keep the focus on gaining programming experience. We then use this experience as an anchor for the theoretical principles that improve their programming.
 
+## Computing lessons
+
+See our [Syllabus](/syllabus) page for details on our lesson approach and topics covered in JC1 and JC2.
+
 ## Learning Tracks
 
 Students who wish to push themselves beyond the H2 Computing syllabus have three (optional) tracks of development available to them.
@@ -33,4 +37,3 @@ Students develop their knowledge of computer security vulnerabilities and mitiga
 Students develop their ability to design an application system, lead and be part of a software engineering team, and manage stakeholder goals through:
 - Personal programming projects
 - [Nanyang System Developers](/nanyang-system-developers), NYJC's in-house Computing talent development programme
-- Ongoing mentorship (if necessary) with experienced engineers for accelerated learning

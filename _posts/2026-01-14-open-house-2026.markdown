@@ -1,0 +1,20 @@
+---
+title: Open House 2026
+author: Mr Ng
+date: 2026-01-14 11:40:00 +0800
+categories:
+- update
+layout: post
+description: "Information about Open House 2026"
+---
+
+Congratulations, Sec 4 class of 2025! When you get your results today, I know some of you will be considering NYJC as one of your options. If you don’t know what the H2 Computing subject is about, or have some idea of it but would like to find out more, here are some resources you can look at:
+
+- [A-Level curriculum and subject syllabuses](https://www.moe.gov.sg/post-secondary/a-level-curriculum-and-subject-syllabuses) [MOE]
+- [Computing (Syllabus 9569)]({{site.data.links["current-syllabus"]["url"]}}) [SEAB]
+
+For more targetted questions, we will be running an AMA on Reddit and Discord during the JAE period, where you can ask more specifically about how we run our Computing programme in NYJC.
+
+- Reddit AMA: [https://www.reddit.com/r/SGExams/comments/1qcg6m1/nyjc_computing/](https://www.reddit.com/r/SGExams/comments/1qcg6m1/nyjc_computing/)
+
+See you soon, and all the best in your JAE exercise!
