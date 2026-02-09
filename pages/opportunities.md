@@ -1,6 +1,6 @@
 ---
-title: Events
-permalink: "/events"
+title: Opportunities
+permalink: "/opportunities"
 layout: page
 style: assets/custom.css
 ---
@@ -36,6 +36,7 @@ style: assets/custom.css
 
 - **NOI Training conducted by NUS School of Computing**
     - Expected period: Dec
+    - Prerequisites: CeNCE CS1 Final Round
 
 - **CeNCE courses**
     - See [CeNCE's website](https://cence.comp.nus.edu.sg/cence/courses.html)
@@ -47,10 +48,17 @@ style: assets/custom.css
     - Expected period: usually Jun
 
 - **CSIT Infosecurity Challenge**
-    - Expected period: usually Sep
+    - Expected period: usually Aug - Sep
 
 
 ## Workshops and Conferences
 
 - **BuildingBloCS**
     - Expected period: Mar & Jun
+
+
+## Scholarships
+
+- **CSIT Computing Scholarship**
+    - Nominated by college
+    - Open to JC1 students who are Singapore citizens and taking H2 Computing, or demonstrate strong interest and background in Computing
