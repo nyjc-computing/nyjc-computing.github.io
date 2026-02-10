@@ -5,6 +5,8 @@ layout: page
 style: assets/custom.css
 ---
 
+The following are some of the annual opportunities available for students interested in Computing.
+
 ## Competitions
 
 - **National Olympiad in AI (NOAI)**
@@ -18,6 +20,8 @@ style: assets/custom.css
 - **National Cybersecurity Olympiad (NCO)**
     - Website: [https://cence.comp.nus.edu.sg/cence/nco/index.php](https://cence.comp.nus.edu.sg/cence/nco/index.php)
     - Expected period: Feb - Mar
+    - Must attend NCO training
+    - Top performers may be selected to represent Singapore in the International Cybersecurity Olympiad (ICO)
 
 - **Cyberthon**
     - Website: [https://cyberthon.hci.edu.sg/](https://cyberthon.hci.edu.sg/)
@@ -26,10 +30,14 @@ style: assets/custom.css
 - **Computational and Algorithmic Thinking (CAT)**
     - Website: [https://amt.edu.au/cat](https://amt.edu.au/cat)
     - Expected period: May
+    - Paper-based competition
+    - No prior programming experience required
 
-- **Oxford University Computing Challenge (OUCC)**
-    - Website: [https://www.stacs.scot/coding-website-database/oxford-university-computing-competition](https://www.stacs.scot/coding-website-database/oxford-university-computing-competition)
+- **Coding Challenge**
+    - Website: [https://amt.edu.au/cc](https://amt.edu.au/cc)
     - Expected period: Jun
+    - 5 divisions based on skill
+    - basic coding skills required (Python, C#, Javam or VB)
 
 - **Australian Informatics Olympiad (AIO)**
     - Website: [https://amt.edu.au/aio](https://amt.edu.au/aio)
@@ -48,13 +56,13 @@ style: assets/custom.css
     - Prerequisites: CeNCE CS1 Final Round
 
 - **NCO Training**
-    - - Conducted by NUS School of Computing
+    - Conducted by NUS School of Computing
     - Expected period: Dec
-    - Prerequisites: CeNCE CS2 Final Round
 
 - **CeNCE courses**
     - Conducted by NUS Centre for Nurturing Computing Excellence (CeNCE)
     - Website: [https://cence.comp.nus.edu.sg/cence/courses.html](https://cence.comp.nus.edu.sg/cence/courses.html)
+    - Online, self-paced courses on computational thinking and programming
 
 
 ## CTFs
@@ -73,6 +81,12 @@ style: assets/custom.css
 - **BuildingBloCS**
     - Website: [https://buildingblocs.sg/](https://buildingblocs.sg/)
     - Expected period: Mar & Jun
+
+- **Competitive Programming Introductory Course (CPIC)**
+    - Website: [https://cpic.sg/](https://cpic.sg/)
+    - Expected period: Jun
+    - Organised by [NYCP SIG](https://www.nanyangjc.moe.edu.sg/nanyang-competitive-programming-club-nycp/)
+    - Open to secondary school and JC participants
 
 
 ## Scholarships
