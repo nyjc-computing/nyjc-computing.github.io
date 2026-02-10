@@ -5,7 +5,7 @@ layout: page
 style: assets/custom.css
 ---
 
-The following are some of the annual opportunities available for students interested in Computing.
+The following are some of the annual opportunities available for students interested in Computing-related pursuits. Unless otherwise stated, all events are open to all NYJCians, including non-H2 Computing students.
 
 ## Competitions
 
