@@ -29,17 +29,16 @@ jobs:
           TARGET_BRANCH="${{ matrix.branch }}"
           git fetch --all --prune
 
+          # Create local branch tracking origin/${TARGET_BRANCH}
+          git checkout -b ${TARGET_BRANCH} origin/${TARGET_BRANCH} || git checkout ${TARGET_BRANCH}
+
           # Check if target branch is an ancestor of main (can fast-forward)
-          if git merge-base --is-ancestor origin/${TARGET_BRANCH} origin/main 2>/dev/null; then
+          if git merge-base --is-ancestor HEAD origin/main 2>/dev/null; then
             echo "Branch ${TARGET_BRANCH} is behind main and can be fast-forwarded"
-            git checkout ${TARGET_BRANCH}
             git reset --hard origin/main
             git push origin ${TARGET_BRANCH} --force
           else
             echo "Branch ${TARGET_BRANCH} has diverged from main, attempting merge"
-            # Ensure target branch is up-to-date with origin
-            git checkout ${TARGET_BRANCH}
-            git pull --no-rebase origin ${TARGET_BRANCH} || true
 
             # Merge origin/main into the target branch
             # Use --no-ff to create an explicit merge commit when required and
