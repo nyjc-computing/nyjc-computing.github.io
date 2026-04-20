@@ -32,6 +32,7 @@ Students develop their knowledge of computer security vulnerabilities and mitiga
 - The Sentinel Programme, organised by DIS
 - Training provided by NYRCS
 - The [National Cybersecurity Olympiad (NCO)](/nco-training)
+
 ### Application Development and AI
 
 Students develop their ability to design an application system, lead and be part of a software engineering team, and manage stakeholder goals through:
